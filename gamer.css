@@ -1,0 +1,345 @@
+@charset "UTF-8" ;
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-whatsapp {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    width: 56px;
+    height: 56px;
+    background-color: #25D366;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    z-index: 9999;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .btn-whatsapp:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+  }
+  
+  .btn-whatsapp img {
+    width: 32px;
+    height: 32px;
+  }
+
+  /*parte inicial*/
+
+body{
+    background-image: linear-gradient(to right,#001b6b, #011142);
+    align-items: center; 
+    justify-content: center;
+}
+
+.menu{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1px;
+    background-image: linear-gradient(to right,#001450c5, #000a2ac0);
+    padding: 10px;
+    border-radius: 15px;
+    width: 1000px;
+}
+img{
+    border-radius: 15px;
+}
+.lmenu{
+    display: flex;
+    margin: auto;
+    text-align: center;
+   text-decoration: none;
+   color: white;
+   border: none;
+   border-radius: 5px;
+   transition: background-color 0.3s ease;
+   padding: 10px;
+}
+
+.lmenu:hover{
+    background-color: #0e00a2;
+    transform: scale(1.05);
+  }
+  
+  .lmenu:active{
+    background-color: #002cae;
+  }
+
+
+.logo{
+    max-width: 80px;
+   width: 20%
+}
+
+/*segunda parte*/
+
+.info{
+    background-image: linear-gradient(to right,#001450c5, #000a2ac0);
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    padding: 30px;
+    border-radius: 30px;
+    width: 800px;
+}
+.h1info{
+    color: white;
+    text-align: center;
+
+}
+.h1info2{
+    color: #1c55ff;
+}
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+.info2{
+gap: 20px;
+padding: 20px;
+}
+.btn{
+    padding: 5px;
+    border-radius: 30px;
+    text-align: center;
+    padding: 25px;
+    background-color: #0040ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease
+}
+
+.btn:hover{
+    background-color: #0000e7c2;
+    transform: scale(1.01);
+  }
+  
+  .btn:active{
+    background-color: #002cae;
+  }
+
+.destaque{
+    margin: auto;
+    background-image: linear-gradient(to right,#001450c5, #000a2ac0);
+    padding: 50px;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 15px;
+    height: 200px;
+    width: 800px;
+}
+.pc{
+width: 200px;
+height: 200px;
+border-radius: 65px;
+ padding: 20px;
+}
+
+/* terçeira parte*/
+
+.item1{
+    margin: auto;
+    background-image: linear-gradient(to right,#001450c5, #000a2ac0);
+    box-shadow: 15px 5px 15px rgba(0, 13, 51, 0.677);
+    display: flex;
+    padding: 30px;
+    width: 700px;
+    height: 350px;
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 30px;
+    gap: 30px;
+}
+
+.conteudo{
+    padding: 30px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(to right,#002595c5, #001455c0);
+    border-radius: 20px;
+    text-align: center;
+ 
+    width: 350px;
+    height: 270px;
+    margin-top: 18px;
+}
+
+.foto1{
+    width: 300px;
+    height: 300px;
+    margin-top: 25px;
+    justify-content: center; 
+    align-items: center;
+    display: flex;
+}
+
+.name{
+color: white;
+text-align: center;
+font-family: serif;
+}
+.descrição{
+    color: white;
+    font-family: serif;
+}
+.preço{
+    color: white;
+    font-family: serif;
+}
+.btn3{
+    height: 50px;
+    width: 310px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+    background-color:  #0040ff;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.btn3:hover , .btn4:hover {
+    background-color: #0000e7c2;
+    transform: scale(1.01);
+  }
+  
+  .btn3:active , .btn4:hover {
+    background-color: #002cae;
+  }
+
+.avaliação{
+    color: white;
+}
+
+/*Item 2*/
+
+.item2{
+    margin: auto;
+    background-image: linear-gradient(to right,#002699c5, #000f3ec0);
+    box-shadow: 15px 5px 15px rgba(0, 14, 55, 0.677);
+    display: flex;
+    padding: 30px;
+    width: 700px;
+    height: 350px;
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 30px;
+    gap: 30px;
+}
+
+.conteudo2{
+    padding: 30px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(to right,#002eb8c5, #001454c0);
+    border-radius: 20px;
+    text-align: center;
+ 
+    width: 350px;
+    height: 270px;
+    margin-top: 18px;
+}
+
+.btn4{
+    height: 50px;
+    width: 310px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+    background-color:  #0040ff;
+    text-align: center;
+    transition: background-color 0.3s ease
+}
+
+.avaliações1{
+    margin: auto;
+    background-image: linear-gradient(to right,#0031c4, #000f41);
+    box-shadow: 15px 5px 15px rgba(0, 14, 55, 0.677);
+   display: flex;
+    padding: 10px;
+    width: 550px;
+    height: 220px;
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 30px;
+   padding: 25px;
+   gap: 20px;
+}
+
+.avaliações2{
+    margin: auto;
+    padding: 10px;
+    justify-content: center; 
+    align-items: center;
+    background-image: linear-gradient(to right,#0040ffc5, #001c6fc0);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.avaliaçõestxt{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/*ultima parte*/
+
+.ulink{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    background-image: linear-gradient(to right,#0029a2, #001865);
+    padding: 25px;
+    border-radius: 30px;
+    width: 670px;
+}
+.btnlink2{
+    display: flex;
+    margin: auto;
+   text-decoration: none;
+   color: white;
+   padding: 2px;
+   border-radius: 15px;
+   text-align: center;
+   padding: 15px;
+   background-color: #001e7900;
+   color: white;
+   border: none;
+   cursor: pointer;
+   transition: background-color 0.6s ease
+}
+
+.btnlink2:hover{
+    background-color: #0040ff;
+    transform: scale(1.02);
+  }
+  
+  .btnlink2:active{
+    background-color: #0040ff;
+  }
