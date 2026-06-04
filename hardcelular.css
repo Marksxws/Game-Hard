@@ -103,7 +103,7 @@ h1{
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            width: 70%;
+            width: 90%;
             height: 570px;
             padding: 1px;
             border-radius: 15px;
@@ -197,13 +197,13 @@ h1{
     gap: 4.5px;
     padding: 6.5px;
     border-radius: 15px;
-    width: 95%;
+    width: 90%;
     height: 50px;
 }
 
 .btnlink2{
     display: flex;
-   padding: 4px;
+   padding: 5px;
    border-radius: 9px;
 }
 
