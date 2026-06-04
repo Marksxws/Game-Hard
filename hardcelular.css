@@ -1,6 +1,6 @@
 @charset "UTF-8" ;
 
-@media (max-width: 760px){
+@media (max-width: 790px){
 
     *{
         font-family: Arial, Helvetica, sans-serif;
@@ -11,7 +11,7 @@
         right: 12px;
         width: 55px;
         height: 55px;
-        border-radius: 55%;
+        border-radius: 50%;
     }
 
     .btn-whatsapp:hover {
@@ -36,7 +36,7 @@
          gap: 1px;
         padding: 5px;
         border-radius: 20px;
-        width: 470px;
+        width: 90%;
     }
 
     img{
@@ -60,8 +60,8 @@
     margin-top: 20px;
     gap: 6px;
     padding: 30px;
-    border-radius: 15px;
-    width: 400px;
+    border-radius: 25px;
+    width: 80%;
 }
 
 h1{
@@ -85,7 +85,7 @@ h1{
         border-radius: 12px;
         gap: 7.5px;
         height: 100px;
-        width: 400px;
+        width: 80%;
     }
 
     .pc{
@@ -101,7 +101,7 @@ h1{
             margin-top: 30px;
             padding: 15px;
             display: flex;
-            width: 470px;
+            width: 90%;
             height: 330px;
             padding: 5px;
             border-radius: 15px;
@@ -135,11 +135,11 @@ h1{
         /*Segunda variação de cores nos itens*/
 
             .item2{
-                box-shadow: 7,5px 2.5px 7.5px rgba(0, 14, 55, 0.677); 
+                box-shadow: 7.5px 2.5px 7.5px rgba(0, 14, 55, 0.677); 
             margin-top: 30px;
             padding: 15px;
             display: flex;
-            width: 470px;
+            width: 90%;
             height: 330px;
             padding: 5px;
             border-radius: 15px;
@@ -166,10 +166,10 @@ h1{
             /*Parte das avaliações*/
 
             .avaliações1{
-                box-shadow: 7.5px 3px 7,5px rgba(0, 14, 55, 0.677);
+                box-shadow: 7.5px 3px 7.5px rgba(0, 14, 55, 0.677);
                display: flex;
                 padding: 5px;
-                width: 400px;
+                width: 90%;
                 height: 220px;
                 padding: 7px;
                 margin-top: 15px;
@@ -190,7 +190,7 @@ h1{
     gap: 7.5px;
     padding: 12.5px;
     border-radius: 15px;
-    width: 400px;
+    width: 90%;
     height: 50px;
 }
 
