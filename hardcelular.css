@@ -101,24 +101,27 @@ h1{
             margin-top: 30px;
             padding: 15px;
             display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
             width: 70%;
-            height: 370px;
-            padding: 5px;
+            height: 570px;
+            padding: 1px;
             border-radius: 15px;
             gap: 1px;
         }
 
         
         .conteudo{
-            padding: 5px;
+            padding: 1px;
             border-radius: 10px;
-            width: 200px;
+            width: 90%;
+            max-width: 300px;
             height: 330px;
         }
 
         .foto1{
             flex-wrap: wrap;
-            margin-top: 90px;
+            margin-top: 4px;
             border-radius: 30px;
             padding: 15px;
             width: 120px;
@@ -137,22 +140,25 @@ h1{
 
             .item2{
                 box-shadow: 7.5px 2.5px 7.5px rgba(0, 14, 55, 0.677); 
-            margin-top: 30px;
-            padding: 15px;
-            display: flex;
-            width: 70%;
-            height: 370px;
-            padding: 5px;
-            border-radius: 15px;
-            gap: 1px;
+                margin-top: 30px;
+                padding: 15px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                width: 70%;
+                height: 570px;
+                padding: 1px;
+                border-radius: 15px;
+                gap: 1px;
             }
 
             
             .conteudo2{
-                 padding: 5px;
-                border-radius: 10px;
-                width: 200px;
-                height: 330px;
+                padding: 1px;
+            border-radius: 10px;
+            width: 90%;
+            max-width: 300px;
+            height: 330px;
             }
          
 
@@ -188,7 +194,7 @@ h1{
             /*ultima parte*/
 
 .ulink{
-    gap: 7.5px;
+    gap: 4.5px;
     padding: 12.5px;
     border-radius: 15px;
     width: 80%;
@@ -197,9 +203,8 @@ h1{
 
 .btnlink2{
     display: flex;
-   padding: 7px;
+   padding: 4px;
    border-radius: 9px;
-   padding: 7.5px;
 }
 
 }
