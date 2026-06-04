@@ -1,0 +1,205 @@
+@charset "UTF-8" ;
+
+@media (max-width: 760px){
+
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .btn-whatsapp{
+        bottom: 12px;
+        right: 12px;
+        width: 55px;
+        height: 55px;
+        border-radius: 50%;
+    }
+
+    .btn-whatsapp:hover {
+        transform: scale(1.1);
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
+      }
+      
+      .btn-whatsapp img {
+        width: 16px;
+        height: 16px;
+      }
+      body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      /*parte inicial*/
+
+      .menu{
+         gap: 1px;
+        padding: 5px;
+        border-radius: 20px;
+        width: 90%;
+    }
+
+    img{
+        border-radius: 10px;
+    }
+
+.lmenu{
+    border-radius: 5px;
+    padding: 6px;
+}
+
+.logo{
+    max-width:  50px;
+    width: 20%;
+}
+
+/*segunda parte*/
+
+
+.info{
+    margin-top: 20px;
+    gap: 6px;
+    padding: 30px;
+    border-radius: 25px;
+    width: 80%;
+}
+
+h1{
+   
+}
+
+.info2{
+    gap: 10px;
+    padding: 10px;
+    }
+
+    .btn{
+        padding: 4px;
+        gap: 10px;
+        border-radius: 15px;
+        padding: 12.5px;
+    }
+
+    .destaque{
+         padding: 25px;
+        border-radius: 12px;
+        gap: 7.5px;
+        height: 100px;
+        width: 80%;
+    }
+
+    .pc{
+        width: 80%;
+        height: 80px;
+        border-radius: 32.5px;
+         padding: 10px;
+        }
+
+        /* terçeira parte*/
+
+        .item1{
+            margin-top: 30px;
+            padding: 15px;
+            display: flex;
+            width: 70%;
+            height: 370px;
+            padding: 5px;
+            border-radius: 15px;
+            gap: 1px;
+        }
+
+        
+        .conteudo{
+            padding: 5px;
+            border-radius: 10px;
+            width: 200px;
+            height: 330px;
+        }
+
+        .foto1{
+            flex-wrap: wrap;
+            margin-top: 90px;
+            border-radius: 30px;
+            padding: 15px;
+            width: 120px;
+          height: 110px;
+        }
+        
+        .btn3{
+            height: 25px;
+            width: 155px;
+            margin-top: 0px;
+            border-radius: 10px;
+            padding: 5px;
+        }
+
+        /*Segunda variação de cores nos itens*/
+
+            .item2{
+                box-shadow: 7.5px 2.5px 7.5px rgba(0, 14, 55, 0.677); 
+            margin-top: 30px;
+            padding: 15px;
+            display: flex;
+            width: 70%;
+            height: 370px;
+            padding: 5px;
+            border-radius: 15px;
+            gap: 1px;
+            }
+
+            
+            .conteudo2{
+                 padding: 5px;
+                border-radius: 10px;
+                width: 200px;
+                height: 330px;
+            }
+         
+
+            .btn4{
+                height: 25px;
+                width: 155px;
+                margin-top: 0px;
+                border-radius: 10px;
+                padding: 5px;
+            }
+
+            /*Parte das avaliações*/
+
+            .avaliações1{
+                box-shadow: 7.5px 3px 7.5px rgba(0, 14, 55, 0.677);
+                display: flex;
+                padding: 5px;
+                width: 70%;
+                height: 300px;
+                padding: 7px;
+                margin-top: 15px;
+                border-radius: 15px;
+               padding: 12.5px;
+               gap: 5px;
+            }
+
+            .avaliações2{
+                margin: auto;
+                padding: 5px;
+                border-radius: 10px;
+            }
+
+            /*ultima parte*/
+
+.ulink{
+    gap: 7.5px;
+    padding: 12.5px;
+    border-radius: 15px;
+    width: 80%;
+    height: 50px;
+}
+
+.btnlink2{
+    display: flex;
+   padding: 7px;
+   border-radius: 9px;
+   padding: 7.5px;
+}
+
+}
